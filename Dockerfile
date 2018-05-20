@@ -7,5 +7,7 @@ ADD . /sample-app
 
 EXPOSE 80
 
+ENV NAME Dave<br><img src="https://i.imgur.com/qVljqpq.gif" alt="You're my wife now">
+
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 CMD ["python", "app.py"]
